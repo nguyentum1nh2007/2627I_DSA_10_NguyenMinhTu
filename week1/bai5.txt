@@ -1,0 +1,6 @@
+Không
+Để nút 0 trở thành con của nút 5 trong WQU, tại thời điểm gọi lệnh union, kích thước của cây gốc 5 phải 
+>= kích thước của cây gốc 0 (tức là >= 7).
+Nếu phép nối này xảy ra, cây gốc 5 sau khi nối sẽ phải chứa ít nhất: 7 + 7 = 14 nút.
+Tuy nhiên, bài toán chỉ có tổng cộng 10 nút. Điều này chứng minh trạng thái cây như 
+trong mảng là phi logic và không thể được tạo ra bằng thuật toán WQU.

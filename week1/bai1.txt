@@ -1,0 +1,9 @@
+test case sai: n = 3
+khởi tạo leader = [0, 1, 2]
+union(1, 0) => leader = [0, 0, 2]
+union(0, 2) => leader = [2, 0, 2]
+Sau khi chạy xong hai lệnh trên, phần tử 0 và 1 chắc chắn phải thuộc cùng một tập hợp. 
+Tuy nhiên, theo mảng kết quả:
++ find(0) trả về 2
++ find(1) trả về 0
+Hai giá trị này khác nhau, chứng tỏ union() sai.

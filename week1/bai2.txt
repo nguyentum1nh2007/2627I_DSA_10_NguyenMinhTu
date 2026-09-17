@@ -1,0 +1,4 @@
+a) Cấu trúc dữ liệu thu được 1 thành phần liên thông.
+b) Tổng số lần cập nhật mảng là 1 + 2 + 3 + ... + (n-1) = n*(n-1)/2
+c) O(n)
+d) O(1)
