@@ -1,0 +1,10 @@
+Ta chứng minh bằng phương pháp quy nạp toán học. Cơ sở quy nạp: 
+Với N = 3, số cách chọn 3 phần tử từ 3 phần tử là 1. 
+Áp dụng công thức: 3(3-1)(3-2)/6 = 1. Mệnh đề đúng.
+Giả thiết quy nạp: Giả sử công thức đúng với N = k, 
+tức là số bộ ba chọn được từ k phần tử là k(k-1)(k-2)/6.
+Bước quy nạp: Xét N = k + 1. Tổng số bộ ba từ k+1 phần tử có thể chia làm hai tập:
+Các bộ ba không chứa phần tử thứ k+1 (chỉ chọn từ k phần tử cũ): Theo giả thiết quy nạp, 
+có k(k-1)(k-2)/6 bộ.Các bộ ba có chứa phần tử thứ k+1: Ta cần chọn thêm 2 phần tử từ k
+ phần tử còn lại, số cách chọn là k(k-1)/2. Tổng số bộ ba là: k(k-1)(k-2)/6 + k(k-1)/2 = (k-1)k(k+1) 
+ Mệnh đề đúng với N = k+1. Khẳng định được chứng minh.

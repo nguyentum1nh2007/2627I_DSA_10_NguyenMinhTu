@@ -1,0 +1,7 @@
+Thuật toán duyệt toàn bộ ThreeSum có 3 vòng lặp lồng nhau, kiểm tra tất cả các bộ ba 
+(i, j, k) với i < j < k. Tổng số bộ ba được duyệt là N(N-1)(N-2)/6 ~ N^3 / 6. 
+Bên trong vòng lặp thực hiện lệnh: a[i] + a[j] + a[k] == 0.   
+Số phép cộng: Mỗi lần lặp thực hiện 2 phép cộng. 
+Tổng chi phí là 2 * (N^3 / 6) = N^3 / 3 phép cộng.
+Số phép so sánh: Mỗi lần lặp thực hiện 1 phép so sánh bằng. 
+Tổng chi phí là N^3 / 6 phép so sánh (chưa tính các phép so sánh điều kiện của vòng lặp).

@@ -1,0 +1,11 @@
+a. Bậc tăng: O(N) (Tuyến tính)
+Giải thích: Vòng lặp ngoài bắt đầu từ N và chia đôi mỗi lần. Vòng lặp trong chạy n lần. 
+Tổng số phép toán là một chuỗi hình học: N + N/2 + N/4 + ... + 1 ~ 2N.
+
+b. Bậc tăng: O(N) (Tuyến tính)
+Giải thích: Vòng lặp ngoài nhân đôi i từ 1 đến N. Vòng lặp trong chạy i lần. 
+Tổng số phép toán: 1 + 2 + 4 + ... + N/2 + N ~ 2N.
+
+c. Bậc tăng: O(N log N) (Tuyến tính logarit)
+Giải thích: Vòng lặp ngoài chạy khoảng log2(N) lần (do i nhân đôi mỗi vòng). 
+Vòng lặp trong luôn chạy đúng N lần độc lập với i. Tổng số phép toán chính xác là N * log2(N).

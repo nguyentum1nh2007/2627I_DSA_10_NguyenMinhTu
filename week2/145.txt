@@ -1,0 +1,7 @@
+N + 1 ~ N
+1 + 1/N ~ 1
+(1 + 1/N)(1 + 2/N) ~ 1
+2N^3 - 15N^2 + N ~ 2N^3
+log(2N) / log(N) = (log(2) + log(N)) / log(N) ~ log(N) / log(N) = 1
+log(N^2 + 1) / log(N) ~ log(N^2) / log(N) = 2 * log(N) / log(N) = 2
+N^100 / 2^N ~ N^100 / 2^N (Không thể rút gọn thêm vì biểu thức chỉ có một số hạng)

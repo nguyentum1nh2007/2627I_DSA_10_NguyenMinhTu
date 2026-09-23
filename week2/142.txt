@@ -1,0 +1,4 @@
+Ép kiểu (cast) toán hạng đầu tiên sang long trước khi thực hiện phép cộng
+if ((long) a[i] + a[j] + a[k] == 0) {
+    count++;
+}
