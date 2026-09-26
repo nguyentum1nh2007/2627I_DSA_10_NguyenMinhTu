@@ -1,0 +1,8 @@
+Đoạn code dùng để đảo ngược thứ tự các phần tử trong hàng đợi q (Reverses the elements of queue q).
+
+Vòng lặp 1: Lần lượt lấy (dequeue) từng phần tử của q và đẩy (push) vào stack. 
+Do đặc tính LIFO của Stack, phần tử vào đầu tiên của q sẽ nằm ở đáy stack, và 
+phần tử cuối cùng của q sẽ nằm trên đỉnh stack.
+
+Vòng lặp 2: Lần lượt lấy (pop) từng phần tử khỏi stack và thêm lại (enqueue) 
+vào q. Kết quả là thứ tự ban đầu của các phần tử trong q bị đảo ngược hoàn toàn.

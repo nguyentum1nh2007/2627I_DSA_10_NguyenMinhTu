@@ -1,0 +1,13 @@
+Đặc tính của Queue là FIFO (First-In, First-Out). Do các số từ 0 đến 9 được enqueue theo thứ tự tăng dần, 
+bất kỳ giá trị nào được dequeue ra cũng bắt buộc phải xuất hiện theo thứ tự tăng dần 
+0, 1, 2, 3, 4, 5, 6, 7, 8, 9, bất kể các thao tác enqueue và dequeue có nằm xen kẽ nhau hay không.
+
+a. 0 1 2 3 4 5 6 7 8 9: Hợp lệ (thứ tự tăng dần hoàn hảo).
+
+b. 4 6 8 7 5 3 2 9 0 1: Không thể xảy ra (7 ra sau 8, 0 ra sau 9).
+
+c. 2 5 6 7 4 8 9 3 1 0: Không thể xảy ra (4 ra sau 7, 3 ra sau 9).
+
+d. 4 3 2 1 0 5 6 7 8 9: Không thể xảy ra (3 ra sau 4).
+
+Các chuỗi b, c, d đều không thể là output.

@@ -1,0 +1,11 @@
+Các chuỗi không thể là output: b, f, g
+
+Giải thích lý do:
+b (4 6 8 7 5 3 2 9 0 1): Để pop ra 4, ta đã push 0, 1, 2, 3, 4. 
+Sau khi pop các số 4, 6, 8, 7, 5, 3, 2 và 9, trong stack còn lại hai số [0, 1] (với 1 nằm ở đỉnh stack). 
+Lệnh pop tiếp theo bắt buộc phải thu được 1, không thể thu được 0 trước 1.
+
+f (0 4 6 5 3 8 1 7 2 9): Sau khi pop 8, các phần tử còn lại trong stack là [1, 2, 7] (với 7 ở đỉnh). 
+Do đó, phần tử tiếp theo thu được phải là 7, không thể lấy ra 1.
+
+g (1 4 7 9 8 6 5 3 0 2): Sau khi pop 5 và 3, stack còn lại [0, 2] (với 2 ở đỉnh). do đó không thể lấy 0 ra trước 2.

@@ -1,0 +1,4 @@
+COS226, Midterm f24, 6
+a) 1 2 3 3 4 5 4 5 6 7
+b) Theta(n)
+c) Theta(n)
