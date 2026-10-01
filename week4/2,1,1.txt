@@ -1,0 +1,25 @@
+Mảng ban đầu (i = 0 đến 11):
+i = 0: E {A} S Y Q U E S T I O N (Tìm thấy min là A tại vị trí 1, đổi chỗ A và E)
+
+i = 1: [A] {E} S Y Q U E S T I O N (E ở vị trí 1 là min của phần còn lại, tự đổi chỗ cho nó)
+
+i = 2: [A] [E] S Y Q U {E} S T I O N (Tìm thấy E ở vị trí 6 là min, đổi chỗ S và E)
+
+i = 3: [A] [E] [E] Y Q U S S T {I} O N (I ở vị trí 9 là min, đổi chỗ Y và I)
+
+i = 4: [A] [E] [E] [I] Q U S S T Y O {N} (N ở vị trí 11 là min, đổi chỗ Q và N)
+
+i = 5: [A] [E] [E] [I] [N] U S S T Y {O} Q (O ở vị trí 10 là min, đổi chỗ U và O)
+
+i = 6: [A] [E] [E] [I] [N] [O] S S T Y U {Q} (Q ở vị trí 11 là min, đổi chỗ S và Q)
+
+i = 7: [A] [E] [E] [I] [N] [O] [Q] {S} T Y U S (S ở vị trí 7 là min, tự đổi chỗ cho nó)
+
+i = 8: [A] [E] [E] [I] [N] [O] [Q] [S] T Y U {S} (S ở vị trí 11 là min, đổi chỗ T và S)
+
+i = 9: [A] [E] [E] [I] [N] [O] [Q] [S] [S] Y U {T} (T ở vị trí 11 là min, đổi chỗ Y và T)
+
+i = 10: [A] [E] [E] [I] [N] [O] [Q] [S] [S] [T] {U} Y (U là min, tự đổi)
+
+i = 11: [A] [E] [E] [I] [N] [O] [Q] [S] [S] [T] [U] {Y} (Y là min, tự đổi)
+Kết quả: A E E I N O Q S S T U Y

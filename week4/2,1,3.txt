@@ -1,0 +1,8 @@
+Để số lần cập nhật giá trị min đạt tối đa, mỗi khi duyệt đến một phần tử mới a[j], 
+phần tử đó phải luôn nhỏ hơn giá trị min hiện tại.
+
+Ví dụ: Mảng được sắp xếp giảm dần hoàn toàn.
+Với N = 5:  5, 4, 3, 2, 1
+Giải thích: Tại vòng lặp i = 0, min khởi tạo là a[0]=5. 
+Khi duyệt tiếp, min sẽ liên tục bị gán lại tại 4, 3, 2 
+à cuối cùng là 1 (tổng cộng cập nhật 4 lần trong vòng lặp này).

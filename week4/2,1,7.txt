@@ -1,0 +1,5 @@
+KẾT LUẬN: SELECTION SORT CHẠY NHANH HƠN TRÊN THỰC TẾ.
+Cả 2 thuật toán đều tốn O(N^2) phép so sánh.
+Tuy nhiên, Insertion Sort phải thực hiện khoảng N^2 / 2 phép hoán đổi (dịch chuyển dữ liệu liên tục trong bộ nhớ).
+Selection Sort chỉ thực hiện đúng N phép hoán đổi. Việc ít thao tác ghi bộ nhớ giúp Selection Sort nhanh hơn đáng
+ kể trong trường hợp này.

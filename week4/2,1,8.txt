@@ -1,0 +1,7 @@
+KẾT LUẬN: THỜI GIAN CHẠY LÀ BẬC HAI - O(N^2).
+
+Giải thích:
+Mặc dù chỉ có 3 giá trị phân biệt (ví dụ: 1, 2, 3), nhưng khi các phần tử phân bố ngẫu nhiên,
+số lượng nghịch thế (phần tử lớn đứng trước phần tử nhỏ) vẫn tỉ lệ thuận với N^2. 
+Mỗi khi gặp một giá trị nhỏ (như 1) nằm ở nửa sau của mảng, Insertion Sort vẫn phải lùi 
+từng bước một vượt qua rất nhiều giá trị 2 và 3 đứng trước nó. Do đó tổng thời gian chạy vẫn là O(N^2).

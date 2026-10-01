@@ -1,0 +1,5 @@
+KẾT LUẬN: INSERTION SORT CHẠY NHANH HƠN NHIỀU.
+Selection Sort: Vẫn chạy qua 2 vòng lặp lồng nhau đầy đủ để tìm min, mất thời gian O(N^2).
+
+Insertion Sort: Do tất cả các key bằng nhau, phép so sánh a[j] < a[j-1] luôn trả về 
+false ngay lập tức. Vòng lặp trong dừng ngay, độ phức tạp chỉ còn là tuyến tính O(N).

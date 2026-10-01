@@ -1,0 +1,13 @@
+Mảng ban đầu: E A S Y Q U E S T I O N
+i = 1 : {A} E [S] [Y] [Q] [U] [E] [S] [T] [I] [O] [N] (Chèn A, đẩy E sang phải)
+i = 2 : [A] [E] {S} [Y] [Q] [U] [E] [S] [T] [I] [O] [N] (Chèn S, không di chuyển)
+i = 3 : [A] [E] [S] {Y} [Q] [U] [E] [S] [T] [I] [O] [N] (Chèn Y, không di chuyển)
+i = 4 : [A] [E] {Q} S Y [U] [E] [S] [T] [I] [O] [N] (Chèn Q, đẩy S, Y lùi)
+i = 5 : [A] [E] [Q] [S] {U} Y [E] [S] [T] [I] [O] [N] (Chèn U, đẩy Y lùi)
+i = 6 : [A] [E] {E} Q S U Y [S] [T] [I] [O] [N] (Chèn E, đẩy Q, S, U, Y lùi)
+i = 7 : [A] [E] [E] [Q] [S] {S} U Y [T] [I] [O] [N] (Chèn S, đẩy U, Y lùi)
+i = 8 : [A] [E] [E] [Q] [S] [S] {T} U Y [I] [O] [N] (Chèn T, đẩy U, Y lùi)
+i = 9 : [A] [E] [E] {I} Q S S T U Y [O] [N] (Chèn I, đẩy Q, S, S, T, U, Y lùi)
+i = 10: [A] [E] [E] [I] {O} Q S S T U Y [N] (Chèn O, đẩy Q, S, S, T, U, Y lùi)
+i = 11: [A] [E] [E] [I] {N} O Q S S T U Y (Chèn N, đẩy O, Q, S, S, T, U, Y lùi)
+A E E I N O Q S S T U Y

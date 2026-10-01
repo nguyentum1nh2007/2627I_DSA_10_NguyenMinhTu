@@ -1,0 +1,10 @@
+TỐI ĐA:
+Một phần tử bất kỳ có thể bị đổi chỗ tối đa N lần (hoặc N-1 lần tùy cách đếm bước dừng).
+Trường hợp này xảy ra khi phần tử lớn nhất nằm ở đầu mảng, nó bị đẩy liên tục ra phía sau qua từng vòng lặp.
+
+TRUNG BÌNH:
+Trung bình một phần tử bất kỳ bị đổi chỗ đúng 2 lần.
+Lý do: Selection Sort luôn thực hiện đúng N phép đổi 
+chỗ (swap). Mỗi phép đổi chỗ thao tác trên 2 phần tử, 
+tạo ra tổng cộng 2*N lượt đổi chỗ. Chia đều cho N phần tử, 
+trung bình mỗi phần tử tham gia đổi chỗ đúng 2 lần.

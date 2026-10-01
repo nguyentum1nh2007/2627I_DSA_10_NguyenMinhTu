@@ -1,0 +1,10 @@
+Vòng lặp bên trong: for (int j = i; j > 0 && a[j] < a[j-1]; j--)
+Điều kiện (j > 0) luôn FALSE làm vòng lặp kết thúc:
+Mô tả mảng: Mảng sắp xếp GIẢM DẦN (ví dụ: 5, 4, 3, 2, 1).
+Giải thích: Mỗi phần tử đang chèn đều nhỏ hơn tất cả các phần tử phía trước, 
+làm cho vòng lặp lùi liên tục cho tới khi j giảm về 0 làm (j > 0) thành false.
+
+Điều kiện (a[j] < a[j-1]) luôn FALSE làm vòng lặp kết thúc:
+Mô tả mảng: Mảng đã được SẮP XẾP TĂNG DẦN (ví dụ: 1, 2, 3, 4, 5).
+Giải thích: Phần tử đang chèn luôn lớn hơn hoặc bằng phần tử ngay trước nó, 
+khiến điều kiện a[j] < a[j-1] bị sai ngay lần kiểm tra đầu tiên và vòng lặp dừng ngay lập tức.

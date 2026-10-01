@@ -1,0 +1,17 @@
+Độ phức tạp lý thuyết của Insertion SortBest Case (Tốt nhất): O(N)
+khi mảng đã được sắp xếp tăng dần hoặc tất cả phần tử bằng nhau.
+Mỗi phần tử chỉ cần 1 phép so sánh và 0 phép dịch chuyển.
+Worst Case (Xấu nhất): O(N^2) khi mảng được sắp xếp giảm dần (ngược chiều).
+Tổng số phép so sánh và dịch chuyển xấp xỉ N^2/2.
+Average Case (Trung bình): O(N^2) đối với dữ liệu ngẫu nhiên/file test. 
+Số phép so sánh và dịch chuyển xấp xỉ N^2/4.
+Đánh giá sự ảnh hưởng của dạng dữ liệu và kích thước N
+Dữ liệu đã sắp xếp (Sorted) & Toàn giá trị bằng nhau (All Equal):
+Thời gian chạy cực kỳ nhanh, tiệm cận 0 ms ngay cả khi N = 32,000.
+ Thuật toán chỉ duyệt N-1 lần so sánh và dừng vòng lặp trong ngay lập tức.
+ Dữ liệu ngẫu nhiên (Random) & File test (algs4-data):Thời gian chạy tăng 
+ theo hàm bậc hai O(N^2). Khi N tăng gấp 2 lần (từ 8,000 lên 16,000), 
+ thời gian chạy tăng xấp xỉ 4 lần (từ 74.8 ms lên 298.4 ms).
+ Dữ liệu sắp xếp ngược (Reverse Sorted):Đây là trường hợp xấu nhất.
+  Thời gian chạy cao gấp đôi so với trường hợp dữ liệu ngẫu nhiên do ở
+   mỗi bước chèn, phần tử phải dịch chuyển qua toàn bộ các phần tử đứng trước nó.
